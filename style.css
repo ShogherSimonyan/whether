@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+mainContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
 main{
     display: flex;
     margin-top: 20px;
@@ -14,6 +20,7 @@ main>input{
     font-size: 20px;
     width: 50%;
     color: rgb(64, 106, 1);
+    border-radius: 7px;
 }
 main>button{
     background-color:rgb(64, 106, 1) ;
