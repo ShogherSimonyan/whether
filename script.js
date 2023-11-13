@@ -1,6 +1,6 @@
 function getData(city) {
 
-    return fetch(`http://api.weatherapi.com/v1/current.json?key=8273c6b2e3ab4546a3d101522231407&q=${city}&aqi=no`)
+    return fetch(`https://api.weatherapi.com/v1/current.json?key=8273c6b2e3ab4546a3d101522231407&q=${city}&aqi=no`)
     .then(e => e.json())
     // .then(e => {
     //     console.log(e);
